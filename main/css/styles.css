@@ -1,0 +1,70 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+.carousel-item {
+    background-color: gray;
+    height: 600px;
+    background-size: cover;
+}
+
+.carousel-item.item1 {
+    background-image: url('../images/main1.png');
+    background-position: center top;
+    
+}
+
+.carousel-item.item2 {
+    background-image: url('../images/main2.png');
+    background-position: center top;
+}
+
+.carousel-item.item3 {
+    background-image: url('../images/main3.png');
+    background-position: center center;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.course {
+    display: block;
+    box-shadow: 0 2px 4px 0 rgba(0, 0,0, 0.15);
+    margin-top: 20px;
+
+}
+
+.course:hover {
+    text-decoration: none;
+}
+.course .info {
+    padding: 10px;
+}
+
+.course .info h4 {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.course .info .lecturer {
+    font-size: 13px;
+    color: #4a4a4a;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.footer a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
